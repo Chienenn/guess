@@ -14,9 +14,9 @@ document.querySelector(".check").addEventListener("click", function () {
 
   if (!guess) {
 
-    displayMessage("❌No number!");
+    displayMessage("❌ No number!");
   } else if (guess === number) {
-    displayMessage("🎉Correct Number!!!");
+    displayMessage("🎉 Correct Number!!!");
     document.querySelector(".number").textContent = number;
     document.querySelector("body").style.backgroundColor = "#d96551";
     document.querySelector(".number").style.width = "30rem";
